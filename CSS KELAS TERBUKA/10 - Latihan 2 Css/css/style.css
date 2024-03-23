@@ -1,0 +1,52 @@
+*{
+    font-family: Tahoma;
+}
+
+h1{
+    font-family: Times;
+}
+
+h3{
+    font-family: Arial;
+    font-size: 16px;
+}
+
+
+h3>span{
+    font-family: Arial;
+}
+
+h3>span{
+    color: crimson;
+}
+
+span{
+    color:blue;
+}
+
+h3{
+    font-size: 12px;
+    padding: 10px;
+}
+
+h3>span{
+    padding-left:inherit;
+    padding-right:inherit;
+}
+
+
+h2{
+    background-color: black;
+    color: beige;
+    padding: 10px;
+}
+
+h3{
+    background-color:rgba(100, 25, 0, 0.2);
+}
+
+h1{
+    background-color:#efefef;
+    padding: 10px;
+    text-align: center;
+}

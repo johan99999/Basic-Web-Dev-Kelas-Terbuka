@@ -1,0 +1,58 @@
+/* Universal Selector */
+*{
+    font-family: Tahoma;
+}
+/* Universal Selector */
+
+
+/* Type Selector */
+h1{
+    font-size: 30px;
+}
+/* Type Selector */
+
+
+
+/* Class Selector */
+
+.artikel{
+    font-size:20px;
+}
+
+.credit{
+    font-size:12px;
+}
+
+.penulis{
+    color: crimson;
+}
+
+/* Class Selector */
+
+/* ID Selector */
+
+#artikel-1{
+color: darkgoldenrod;
+}
+
+/* ID Selector */
+
+/* Child Selector */
+p>span{
+    color:blueviolet;
+}
+/* Child Selector */
+
+/* First Child */
+h3+p{
+    color:grey;
+    font-size:14px;
+}
+
+/* First Child */
+
+/* All Child */
+h1~p{
+    text-align: justify;;
+}
+/* All Child */

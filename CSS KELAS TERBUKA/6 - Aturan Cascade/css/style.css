@@ -1,0 +1,42 @@
+*{
+    font-family: Arial;
+}
+
+/* Aturan Terakhir */
+i {
+    color: green;
+}
+
+i{
+    color:red;
+}
+
+
+/* Spesifik */
+b{
+    color:pink; 
+}
+/* 1 */
+
+p b{
+    color: brown !important;
+}
+/* 3 */
+p b{
+    color: blue;
+}
+/* 2 */
+
+p b{
+    font-size: 150%;
+}
+
+
+/* Studi kasus */
+p{
+    font-size: 100%;
+}
+
+p#pendahuluan{
+    font-size: 75%;
+}

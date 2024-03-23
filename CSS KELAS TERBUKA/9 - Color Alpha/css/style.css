@@ -1,0 +1,32 @@
+body{
+    background-color: #efefef;
+    color: #efefef
+}
+
+
+#artikel{
+    border:5px solid #2e2b2b;
+    background-color:#504c48 ;
+    padding:20px;
+}
+
+h1{
+    background-color: rgb(252, 3, 173);
+    padding: 10px;
+
+}
+h2{
+    background-color: rgba(252, 3, 173, 0.5);
+    padding: 10px;
+}
+
+
+p.paragraf1{
+    background-color:hsl(250,100%,50%);
+    padding:10px;
+}
+
+p.paragraf2{
+    background-color: hsla(150, 50%, 50%, 0.5);
+    padding:10px;
+}

@@ -1,0 +1,42 @@
+*{
+    font-family: Tahoma;
+}
+
+span{
+    background-color: rgba(255, 200,0 ,0.5);
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    padding: 10px;
+    border: 1px solid;
+}
+
+span.inline{
+    display: inline;
+}
+
+span.block{
+    display: block;
+}
+
+span.inline-block{
+    display: inline-block;
+}
+    
+.flex-container{
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+    height: 200px;
+    padding: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.flex-item{
+    background-color: azure;
+    display: flex;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}

@@ -1,0 +1,45 @@
+h1{
+    font-family: Georgia;
+    font-size: xx-large;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    color: brown;
+    text-shadow: 10px 5px 5px black;
+    word-spacing: 0.55em;
+    letter-spacing: 5px;
+}
+
+.credit{
+    font-family: Verdana;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: underline;
+    text-transform: capitalize;
+    text-align: center;
+}
+
+.tautan{
+    font-family: Arial;
+    font-size: 150%;
+    font-style: italic;
+    text-decoration: none;
+    text-transform: lowercase;
+}
+
+a.tautan:hover{
+    color:deeppink;
+}
+a.tautan:active{
+    color:darkcyan;
+}
+/* a.tautan:visited{
+    color: green;
+
+} */
+
+p.intro{
+    font-family: 'Segoe UI';
+    font-size: 1.2em;
+    text-align: justify;
+}

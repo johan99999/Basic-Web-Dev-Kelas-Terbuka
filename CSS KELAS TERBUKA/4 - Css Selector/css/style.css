@@ -1,0 +1,71 @@
+/* Universal Selector */
+*{
+
+font-family:Georgia;
+
+}
+/* Universal Selector */
+
+/* Type Selector */
+h1{
+    color:chocolate;
+}
+
+h2{
+    color:darkgreen;
+}
+
+/* Type Selector */
+
+/* class selector */
+
+li.sarapan{
+    color: darkgoldenrod;
+}
+li.makansiang{
+    color: gold;
+}
+li.makanmalam{
+    color: black;
+}
+/* class selector */
+
+
+/* id selector */
+#makpi{
+    font-style: italic;
+}
+
+/* id selector */
+
+/* child selector */
+p>b{
+    color: darkorange;
+}
+li>b{
+    color: brown;
+}
+
+/* child selector */
+
+
+/* descendant selector */
+
+p b{
+    color:darkorange;
+}
+/* descendant selector */
+
+/* adjacent sibling selector */
+
+p+h2{
+    color: deeppink;
+}
+
+/* adjacent sibling selector */
+
+h2~p{
+    font-family: 'arial';
+}
+
+/* general sibling selector */
