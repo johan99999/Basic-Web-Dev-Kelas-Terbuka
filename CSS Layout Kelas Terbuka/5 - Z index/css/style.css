@@ -1,0 +1,17 @@
+body{
+    font-family: Arial;
+}
+
+.header{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color: coral;
+    z-index: 1;
+}
+
+.container{
+    position: relative;
+    top: 100px;
+}

@@ -1,0 +1,49 @@
+body{
+    width: 90%;
+    margin: 0 auto;
+    font-family: Arial;
+    box-sizing: border-box;
+}
+.header{
+    text-align: center;
+}
+
+#content{
+    overflow: auto  ;
+}
+
+#content h3{
+    text-align: center;
+}
+
+#nav, #feature, #footer{
+    background-color: burlywood;
+    padding: 10px;
+    text-align: center;
+    margin: 1%;
+}
+
+.column1, .column2, .column3{
+    background-color: burlywood;
+    width: 30%;
+    float: left;
+    margin-right: 1.5%;
+    margin-left: 1.5%;
+    padding: 0.66%;
+}
+
+.column1{
+    margin-left: 0px;
+}
+.column3{
+    margin-right: 0px;
+}
+
+#feature img{
+    width: 20%;
+}
+
+li{
+    display: inline;
+    padding: 5px;
+}
